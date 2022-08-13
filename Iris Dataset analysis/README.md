@@ -1,5 +1,5 @@
 # Iris Dataset analysis
-This project contains five main parts, which implemented by two major preprocessing libraries ```Pandas``` and ```Scikit-learn```: 
+This project contains five main parts, which are implemented by two major preprocessing libraries ```Pandas``` and ```Scikit-learn```: 
 * [Handling Missing Values](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#handling-missing-values)
 * [Target Labeling](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#target-labeling)
 * [Normalization](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#normalization)
