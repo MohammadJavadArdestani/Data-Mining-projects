@@ -2,7 +2,7 @@
 This project contains five main parts, which are implemented by two major preprocessing libraries ```Pandas``` and ```Scikit-learn```: 
 * [Handling Missing Values](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#handling-missing-values)
 * [Target Labeling](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#target-labeling)
-* [Normalization](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#normalization)
+* [Standardizing](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#standardizing)
 * [PCA Analysis](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#pca_analysis)
 * [Plotting Dataset](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Iris%20Dataset%20analysis/README.md#plotting-dataset)
 
@@ -19,11 +19,11 @@ Iris-virginica --> 2
 ```
 The problem here is since there are different numbers in the same column, models will misunderstand the data to be in some order, 0 < 1 <2.
 
-## Normalization
-```sklearn.preprocessing.StandardScaler``` is used for normalization. The mean and var are reported before and after the normalization
+## Standardizing
+Standardizing the features around the center and 0 with a standard deviation of 1 is essential when comparing measurements with  Variables measured at different scales.```sklearn.preprocessing.StandardScaler``` is used for standardizing. The mean and var are reported before and after the normalization
 
 ## PCA 
-Plotting datasets by 2 or 3 features are not challenging for us. in the Iris dataset, we have four characteristics: 
+Plotting datasets with more than 2 or 3 features is challenging for us. in the Iris dataset, we have four characteristics: 
 ```
 sepal length 
 sepal width 
@@ -33,4 +33,4 @@ petal width
 We used PCA for Dimensionality Reduction and decreased the number of features to two. 
 
 ## Plotting Dataset
-In the last part of the project, we plotted the PCA result and Boxplots of the dataset before and after normalization. plots can be found in [notebook file](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Iris%20Dataset%20analysis/Iris_analysis.ipynb)
+In the last part of the project, we plotted the PCA result. Also, some Boxplots of the dataset before and after normalization are used to analyze the distribution. plots can be found in [notebook file](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Iris%20Dataset%20analysis/Iris_analysis.ipynb)
