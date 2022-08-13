@@ -20,6 +20,8 @@ Several neural networks were created, and different parts of a neural network we
 
 
 After evaluating the role of all the elements mentioned, we define the best Neural Network to classify the dataset, which needs a small amount of time to train and reached 83.55% accuracy.<br>
-You can find results and analysis of all the following parts in the [Notebook](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Classification%20by%20Neural%20Network/Classification%20by%20Neural%20Network.ipynb).
+You can find results and analysis of all parts in the [Notebook](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Classification%20by%20Neural%20Network/Classification%20by%20Neural%20Network.ipynb).
 
 ## Fashion MNIST Classification
+Fashion MNIST is used for this part. This dataset contains 10 classes namely,``` 'T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot'```.
+we defined a ```keras.Sequential``` model and used the  ```sparse_categorical_crossentropy``` as  loss function, and the parameters were optimized by Adam optimizer. The model reached 84.88% accuracy after training for an adequate time duration. As the final step, we plotted the confusion matrix. You can find results and analysis of all parts in this [Notebook](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Classification%20by%20Neural%20Network/Classification%20by%20Neural%20Network.ipynb).
