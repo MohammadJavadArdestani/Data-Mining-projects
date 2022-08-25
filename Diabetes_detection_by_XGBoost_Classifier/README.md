@@ -80,7 +80,7 @@ Verbosity=1
 
 
 # Hyperparameter Tuning 
-a list of candidates for each hyperparameter is defined like this:
+List of candidates for each hyperparameter:
 ```
 hyper_param_dict = {
     "learning_rate_list" : [0.02, 0.05, 0.1, 0.3],
@@ -89,7 +89,7 @@ hyper_param_dict = {
     "colsample_bytree" : [0.8, 1]
 }
 ```
-I define the below function for this part:
+```GridSearchCV``` is used to constructing ``` 4 * 3 * 3 *2 = 72 ```  different models from all possible combinations of the candidate parameters.```StratifiedKFold``` is also used to imply  cross-validation by 3 split-points. I defined the below function for this part.
 ```bash
 def tunner(hyper_params, X_train, actual_labels, my_roc_auc_score ):
   untuned_model = XGBClassifier(eval_metric='auc', Subsample=0.5) 
@@ -98,3 +98,14 @@ def tunner(hyper_params, X_train, actual_labels, my_roc_auc_score ):
   grid_result = grid_search.fit(X_train, actual_labels)
   return grid_result
   ```
+and I got the results as ```best_param```: 
+```
+'colsample_bytree': 0.8
+ 'learning_rate_list': 0.02
+ 'max_depth_list': 2
+ 'n_estimators_list': 100
+ ```
+
+# Impact of Each Hyperparameter
+In the last part of This project, we used best_param values for each subplot and placed only one variable on the horizontal axis to see the effects of that variable on the best_param model. Based on the results, it was found that the colsample_bytree parameter has a more significant impact on the quality and performance of the model than other parameters. 
+![Impact of Each Hyperparameter](http://url/to/img.png)
