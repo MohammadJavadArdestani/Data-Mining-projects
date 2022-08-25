@@ -15,5 +15,5 @@
 * [Association Rules](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Association%20Rules)<br>
 -- The goal of this project is extracting ```Association Rules```  from ```Hypermarket_dataset``` using ```TransactionEncoder``` and```Apriori algorithm```.
 
-* [Clustering](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Clustering)
+* [Clustering](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Clustering) <br>
 I used the K-means algorithm and elbow technique to find the best value of K for a dataset created by make_blobs. Also, the DBSCAN algorithm and some parameter tuning for the epsilon and MinPts are implemented.
