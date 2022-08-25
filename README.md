@@ -8,4 +8,4 @@
 -- In this project, the ```XGBoost``` model is used to detect Diabetes for about 70K samples. It also contains some ```preprocessing``` and ``Hyperparameter tuning`` steps to enhance the detection performance.
 
 * [Association Rules](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Association%20Rules)<br>
-The goal of this project is extracting ```Association Rules```  from ```Hypermarket_dataset``` using ```TransactionEncoder``` and```Apriori algorithm```.
+-- The goal of this project is extracting ```Association Rules```  from ```Hypermarket_dataset``` using ```TransactionEncoder``` and```Apriori algorithm```.
