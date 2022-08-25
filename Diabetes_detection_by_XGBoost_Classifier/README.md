@@ -49,15 +49,15 @@ Dataset of this project is sampled from [Diabetes Health Indicators Datase](http
 
 ## Preprocessing
 This part includes five steps:
-1. **Remove Nan values**: The number of rows containing nan value is minimal compared to the total data points. In this situation, for cases such as ```MBI``` and ```AGE```, which are numerical and continuous values, we can use the method of substituting the median or average. But, removing these data points is preferred because they have a tiny share in the dataset. 
-2. **Remove white space:** Renaming columns or words from the data set that have spaces. These whitespaces may cause some model errors. Therefore, removing these whitespaces or placing them with a hyphen "_" is recommended.
+1. **Remove Nan values**: The number of rows containing nan values are minimal compared to the total data points. In this situation, for cases such as ```MBI``` and ```AGE```, which are numerical and continuous values, we can use the method of substituting the median or average. But, removing these data points is preferred because they have a tiny share in the dataset. 
+2. **Remove white space:** Renaming columns or words from the data set with spaces. These whitespaces may cause some model errors. Therefore, removing these whitespaces or placing them with a hyphen "_" is recommended.
 3. **Normalize data**: 
     1. Body shapes can be divided based on BMI, so I divided all the values into four categories
-    2. ```Mental_Health```, ```Age```, ```Physical_Health``` values shoud be scaled. At first, I used the StandardScaler, but I didn't get good results, so I chose the min-max scaling method.
+    2. ```Mental_Health```, ```Age```, ```Physical_Health``` values should be scaled. At first, I used the StandardScaler, but I didn't get good results, so I chose the min-max scaling method.
 4. **One-Hot Ecnoding**:
 In general, data is divided into two groups, numerical and categorical. In building a decision tree, the preference is not to use categorical type, so I converted them to numerical attributes by the ```one-hot-encoding``` method.
 5. **Train and Test split**: 
-I use train_test_split from sklearn in this part and use stratify arg to split the data into balanced groups.
+I use train_test_split from sklearn in this part and stratify arg to split the data into balanced groups.
 ```bash
  train_test_split(data_dims, labels, test_size=0.2, random_state=42, stratify=labels)
 ```
@@ -76,10 +76,10 @@ Random_seed=123
 Eval_metric='auc'
 Verbosity=1
 ```
-```gpu_hist``` is used to train the model and run gridsearch on GPU, which increases our speed considerably. 
+```gpu_hist``` ss used to train the model and run ```GridSearchCV``` on GPU, which increases our speed consid
 
 
-# Hyperparameter Tuning 
+## Hyperparameter Tuning 
 List of candidates for each hyperparameter:
 ```
 hyper_param_dict = {
@@ -106,6 +106,6 @@ and I got the results as ```best_param```:
  'n_estimators_list': 100
  ```
 
-# Impact of Each Hyperparameter
+## Impact of Each Hyperparameter
 In the last part of This project, we used best_param values for each subplot and placed only one variable on the horizontal axis to see the effects of that variable on the best_param model. Based on the results, it was found that the colsample_bytree parameter has a more significant impact on the quality and performance of the model than other parameters. <br><br><br>
 ![Impact of Each Hyperparameter](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Diabetes_detection_by_XGBoost_Classifier/Hyperparameter_imapct.PNG)
