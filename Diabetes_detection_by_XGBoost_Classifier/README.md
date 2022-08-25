@@ -2,11 +2,11 @@
 In this project, XGBoost model is used to detecting Diabetes for about 70K sample. It is also contains some preprocessing and Hyperparameter tuning steps to enhance the detection performance. 
 
 ## Table of Contents
-* [Dataset]()
-* [Preprocessing]()
-* [XGBoost Model]()
-* [Hyperparameter Tuninning]()
-* [Impact of Each Hyperparameter]()
+* [Dataset](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#dataset)
+* [Preprocessing](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#preprocessing)
+* [XGBoost Model](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#xgboost-model)
+* [Hyperparameter Tuninning](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#hyperparameter-tuning)
+* [Impact of Each Hyperparameter](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#impact-of-each-hyperparameter)
 
 ## Dataset
 Dataset of this project is sampled from [Diabetes Health Indicators Datase](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset), which contains 22 features and 441456 samples. We work on about 70k samples in this project. The below table demonstrates 20 main features. For more details read this [document](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset).  
@@ -107,5 +107,5 @@ and I got the results as ```best_param```:
  ```
 
 # Impact of Each Hyperparameter
-In the last part of This project, we used best_param values for each subplot and placed only one variable on the horizontal axis to see the effects of that variable on the best_param model. Based on the results, it was found that the colsample_bytree parameter has a more significant impact on the quality and performance of the model than other parameters. <br>
+In the last part of This project, we used best_param values for each subplot and placed only one variable on the horizontal axis to see the effects of that variable on the best_param model. Based on the results, it was found that the colsample_bytree parameter has a more significant impact on the quality and performance of the model than other parameters. <br><br><br>
 ![Impact of Each Hyperparameter](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Diabetes_detection_by_XGBoost_Classifier/Hyperparameter_imapct.PNG)
