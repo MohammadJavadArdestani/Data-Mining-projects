@@ -3,7 +3,7 @@ This repository contains five different projects. In each of these projects, ess
 
 # Projects
 
-* [Diabetes Detection by ‍‍‍XGBoost Classifier](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Diabetes_detection_by_XGBoost_Classifier)<br>
+## [Diabetes Detection by ‍‍‍XGBoost Classifier](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Diabetes_detection_by_XGBoost_Classifier)<br>
 -- In this project, the ```XGBoost``` model is used to detect Diabetes for about 70K samples. It also contains some ```preprocessing``` and ``Hyperparameter tuning`` steps to enhance the detection performance.
 
 
