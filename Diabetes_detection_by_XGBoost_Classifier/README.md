@@ -1,4 +1,4 @@
-# Diabetes Detection by XGBoost Classifier
+# Diabetes Detection by ‍‍‍```XGBoost``` Classifier
 In this project, the XGBoost model is used to detect Diabetes for about 70K samples. It also contains some preprocessing and Hyperparameter tuning steps to enhance the detection performance.  
 
 ## Table of Contents
