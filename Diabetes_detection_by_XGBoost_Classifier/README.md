@@ -107,5 +107,5 @@ and I got the results as ```best_param```:
  ```
 
 # Impact of Each Hyperparameter
-In the last part of This project, we used best_param values for each subplot and placed only one variable on the horizontal axis to see the effects of that variable on the best_param model. Based on the results, it was found that the colsample_bytree parameter has a more significant impact on the quality and performance of the model than other parameters. 
-![Impact of Each Hyperparameter](http://url/to/img.png)
+In the last part of This project, we used best_param values for each subplot and placed only one variable on the horizontal axis to see the effects of that variable on the best_param model. Based on the results, it was found that the colsample_bytree parameter has a more significant impact on the quality and performance of the model than other parameters. <br>
+![Impact of Each Hyperparameter](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Diabetes_detection_by_XGBoost_Classifier/Hyperparameter_imapct.PNG)
