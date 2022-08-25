@@ -1,4 +1,9 @@
 ﻿# Data Mining projects
+
+This repository contains five mini projects covering several main topics in Data Mining. Below you can find the list of projects:
+
+There 4 different project in this repository that each cover a different section in the datamining world; from preprocessing and analyzing data to classification, clustering, etc.
+
 ## Projects
 * [Iris Dataset analysis](https://github.com/MohammadJavadArdestani/Data-Mining-projects/tree/main/Iris%20Dataset%20analysis)<br>
 -- This project contains five main parts, which are implemented by two major preprocessing libraries ```Pandas``` and ```Scikit-learn```
