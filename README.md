@@ -1,4 +1,4 @@
-﻿# Data Mining projects
+﻿# Data Mining Projects
 This repository contains five different projects. In each of these projects, essential subjects of ```Data Mining``` are covered.
 
 # Projects
