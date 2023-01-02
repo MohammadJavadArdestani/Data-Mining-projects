@@ -2,11 +2,11 @@
 In this project, the ```XGBoost``` model is used to detect Diabetes for about 70K samples. It also contains some preprocessing and Hyperparameter tuning steps to enhance the detection performance.  
 
 ## Table of Contents
-* [Dataset](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#dataset)
-* [Preprocessing](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#preprocessing)
-* [XGBoost Model](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#xgboost-model)
-* [Hyperparameter Tuninning](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#hyperparameter-tuning)
-* [Impact of Each Hyperparameter](https://github.com/MohammadJavadArdestani/Data-Mining-projects/edit/main/Diabetes_detection_by_XGBoost_Classifier/README.md#impact-of-each-hyperparameter)
+* [Dataset](https://github.com/MohammadJavadArdestani/Data-Mining-projects#dataset)
+* [Preprocessing](https://github.com/MohammadJavadArdestani/Data-Mining-projects#preprocessing)
+* [XGBoost Model](https://github.com/MohammadJavadArdestani/Data-Mining-projects#xgboost-model)
+* [Hyperparameter Tuninning](https://github.com/MohammadJavadArdestani/Data-Mining-projects#hyperparameter-tuning)
+* [Impact of Each Hyperparameter](https://github.com/MohammadJavadArdestani/Data-Mining-projects#impact-of-each-hyperparameter)
 
 ## Dataset
 Dataset of this project is sampled from [Diabetes Health Indicators Datase](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset), which contains 22 features and 441456 samples. We work on about 70k samples in this project. The below table demonstrates 20 main features. For more details read this [document](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset).  
