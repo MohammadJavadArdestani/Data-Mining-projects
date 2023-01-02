@@ -2,7 +2,7 @@
 In this project, the ```XGBoost``` model is used to detect Diabetes for about 70K samples. It also contains some preprocessing and Hyperparameter tuning steps to enhance the detection performance.  
 
 ## Table of Contents
-* [Dataset](https://github.com/MohammadJavadArdestani/Data-Mining-projects#dataset)
+* [Dataset](https://github.com/MohammadJavadArdestani/Data-Mining-projects/blob/main/Diabetes_detection_by_XGBoost_Classifier/README.md#dataset)
 * [Preprocessing](https://github.com/MohammadJavadArdestani/Data-Mining-projects#preprocessing)
 * [XGBoost Model](https://github.com/MohammadJavadArdestani/Data-Mining-projects#xgboost-model)
 * [Hyperparameter Tuninning](https://github.com/MohammadJavadArdestani/Data-Mining-projects#hyperparameter-tuning)
